@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import Jumbotron from '../components/jumbotron';
+import { Jumbotron } from '../components';
 import jumboData from '../fixtures/jumbo'
 
 export default function JumbotronContainer() {
