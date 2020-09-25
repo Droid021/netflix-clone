@@ -22,8 +22,6 @@ export const Item = styled.div`
   overflow: hidden;
 `;
 
-
-
 export const Pane = styled.div`
   width: 50%;
   @media (max-width) {

@@ -1,5 +1,5 @@
 // jumbotron component expose
-export { default as Jumbotron } from './jumbotron'
+export { default as Jumbotron } from './jumbotron';
 
 // expose footer component
 export { default as Footer } from './footer';
