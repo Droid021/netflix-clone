@@ -2,7 +2,7 @@
 
 Building a Netflix clone using react js and hosting on netlify
 
-<img src="screenshots/netflix.png" width="350">
+<img src="screenshots/netflix.png" width="600">
 
 ### Task list
 
