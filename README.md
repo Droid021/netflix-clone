@@ -1,15 +1,17 @@
 ## Netflix Clone using react
 
-Building an amazon clone using react js and hosting on netlify
+Building a Netflix clone using react js and hosting on netlify
+
+<img src="screenshots/netflix.png" width="48">
 
 ### Task list
 
 - [x] Deploy to netlify
-- [] Pages
-- [] Firebase auth
-- [] React router auth
-- [] Profiles
-- [] Tests
+- [ ] Pages
+- [ ] Firebase auth
+- [ ] React router auth
+- [ ] Profiles
+- [ ] Tests
 
 ### Available Scripts
 
