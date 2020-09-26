@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link as ReactRouterLink } from 'react-router-dom';
-import { Container } from '../jumbotron/styles/jumbotron';
-import { Background, Logo } from './styles/header';
+import { Background, Logo, ButtonLink, Container } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
   return bg ? <Background {...restProps}>{children}</Background> : children;
@@ -17,4 +16,8 @@ Header.Logo = function HeaderLogo({ to, ...restProps }) {
       <Logo {...restProps} />
     </ReactRouterLink>
   );
+};
+
+Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
+  return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
