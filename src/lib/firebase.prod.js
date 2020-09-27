@@ -18,6 +18,7 @@ const firebaseConfig = {
 const firebase = Firebase.initializeApp(firebaseConfig);
 
 // seed firestore db with dummy content (RUN ONCE)
-seedDatabase(firebase);
+// Don't uncomment the below after initial run
+// seedDatabase(firebase);
 
 export { firebase };
