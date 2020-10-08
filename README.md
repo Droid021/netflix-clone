@@ -7,9 +7,9 @@ Building a Netflix clone using react js and hosting on netlify
 ### Task list
 
 - [x] Deploy to netlify
-- [ ] Pages
-- [ ] Firebase auth
-- [ ] React router auth
+- [x] Pages
+- [x] Firebase auth
+- [x] React router auth
 - [ ] Profiles
 - [ ] Tests
 
