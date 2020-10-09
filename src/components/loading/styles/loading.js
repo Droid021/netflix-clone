@@ -12,6 +12,16 @@ export const ReleaseBody = createGlobalStyle`
   }
 `;
 
+export const Picture = styled.img`
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -22px;
+`;
+
 export const Spinner = styled.div`
   position: fixed;
   width: 100%;
@@ -67,14 +77,4 @@ export const Spinner = styled.div`
       transform: rotate(360deg);
     }
   }
-`;
-
-export const Picture = styled.img`
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -22px;
 `;
