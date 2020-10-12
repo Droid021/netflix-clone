@@ -24,7 +24,7 @@ Header.Frame = function HeaderFrame({ children, ...restProps }) {
 };
 
 Header.Group = function HeaderGroup({ children, ...restProps }) {
-  return <Container {...restProps}>{children}</Container>;
+  return <Group {...restProps}>{children}</Group>;
 };
 
 Header.Logo = function HeaderLogo({ to, ...restProps }) {
