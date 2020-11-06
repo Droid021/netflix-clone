@@ -1,6 +1,6 @@
 ## Netflix Clone using react
 
-Building a Netflix clone using react js and hosting on netlify
+Building a Netflix clone using react js and hosted on netlify
 
 <img src="screenshots/netflix.png" width="600">
 
